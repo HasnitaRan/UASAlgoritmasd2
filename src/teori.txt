@@ -1,0 +1,11 @@
+1. Dimulai dari root. Membandingkan elemen yang dicari dengan root, jika kurang dari root, maka secara rekursif
+    panggil sub pohon kiri, jika tidak, panggil sub pohon kanan scara rekursif. Jika elemen yang dicari ditemukan
+    dimana saja, kembalikan true, jika tidak, kembalikan false.
+
+2. Data nilai yang berisikan 2,18,1,0,56,76,98,34,12 dibagi kedalam array menjadi dua bagian
+    kemudian menentukan posisi left dan right, start dan end menggunakan tipe datanya int
+    selanjutnya pivot ditempatkan pada left atau right, jika pivot lebih dari right maka digerakkan ke kanan
+    jika pivot kurang dari left maka right digerakkan ke kiri.
+    mulai dari elemen paling kiri dan melacak indeks elemen yang lebih kecil (atau sama dengan) sebagai i.
+    Saat melintasi, jika kita menemukan elemen yang lebih kecil, kita menukar elemen saat ini dengan arr[i].
+    Jika tidak, kita abaikan elemen saat ini.
